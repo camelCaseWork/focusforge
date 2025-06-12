@@ -52,7 +52,7 @@ body {
 nav {
     width: 98.5%;
     height: 60px;
-    padding: 20px;
+    padding-top: 20px;
     margin-left: 10px;
 }
 
@@ -194,6 +194,12 @@ section.allelems {
     /* overflow-y: auto; */
 }
 
+@media (max-width: 480px){
+    section.allelems{
+        padding-left: 2px;
+    }
+}
+
 .allelems header {
     height: 300px;
     width: 98.5%;
@@ -270,7 +276,7 @@ section.allelems {
         padding: 30px;
         height: auto;
         width: 90%;
-        margin-left: 37px;
+        margin-left: 14px;
     }
 
     .header1,
@@ -427,7 +433,7 @@ section.allelems {
     .allFeatures {
         gap: 20px;
         /* padding: 10px; */
-        margin-right: 10px;
+        /* margin-right: 10px; */
     }
 
     .elem h2 {
@@ -1556,8 +1562,8 @@ section.allelems {
 
 @media (max-width: 480px) {
     .footer {
-        width: 89.5%;
-        margin-left: 20px;
+        width: 91.5%;
+        margin-left: 22px;
         padding: 1.5rem 1rem;
     }
 
